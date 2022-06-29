@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Profile card component</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
 
-  <div class="background">
-      <img class="top" src="/images/bg-pattern-top.svg">
-      <img class="bottom" src="/images/bg-pattern-bottom.svg">
-  </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <aside>
-    <div>
-      <img class="pattern" src="images/bg-pattern-card.svg"> 
-    </div>
-   
-    <div class="profile" >
-      <div>
-        <img src="images/image-victor.jpg">
-      </div>
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <main>
+      <header></header>
+      <section class="perfil">
+        <img
+          class="perfil__foto"
+          src="assets/images/image-victor.jpg"
+          alt="Foto perfil"
+        />
+        <h1>Victor Crest <span>26</span></h1>
+        <p>London</p>
+      </section>
+
+      <section class="informacao">
+        <div>
+          <h2>80K</h2>
+          <p>Followers</p>
+        </div>
+        <div>
+          <h2>803K</h2>
+          <p>Likes</p>
+        </div>
+        <div>
+          <h2>1.4K</h2>
+          <p>Photos</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
       <p>
-        <span>Victor Crest</span> 26
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Rubendvb">Rubén</a>.
       </p>
-      <p>
-        London
-      </p>
-    </div>
-    
-    
-    <div class="content">
-      
-      <div>
-        <span>80K</span> 
-        <p>Followers</p>
-      </div>
-      <div>
-        <span>803K</span> 
-        <p>Likes</p> 
-      </div>
-      <div>
-        <span>1.4K</span> 
-        <p>Photos</p> 
-      </div>
-
-    </div>
-
-  </aside>
-  
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Rubendvb" target="_blank">Rubén Vásquez</a>.
-  </div>
-</body>
+    </footer>
+  </body>
 </html>
